@@ -1,7 +1,7 @@
-import React from "react";
+import * as React from 'react';
 import { StyleSheet, Text, View } from "react-native";
 
-export default class App extends React.Component<{}, {}> {
+class App extends React.Component<{}, {}> {
   render() {
     const styles = StyleSheet.create({
       container: {
@@ -13,8 +13,10 @@ export default class App extends React.Component<{}, {}> {
     });
     return (
       <View style={styles.container}>
-        <Text>Hello, World</Text>
+        <Text>fuck the poilice!!</Text>
       </View>
     );
   }
 }
+
+export default App;
